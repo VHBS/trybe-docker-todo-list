@@ -4,4 +4,4 @@ ADD ./node_modules.tar.gz ./
 COPY . .
 EXPOSE 3001
 # npm install
-CMD npm start
+CMD ["npm", "start"]
